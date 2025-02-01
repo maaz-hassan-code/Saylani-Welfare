@@ -1,0 +1,81 @@
+.text-center {
+    text-align: center;
+}
+.text-none {
+    text-decoration: none;
+}
+.d-flex{
+    display: flex;
+}
+.justify-evemly{
+    justify-content: space-evenly;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.item-center {
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+} 
+
+.flex-row{
+    flex-direction: row;
+}
+
+/* background colors started*/
+
+:root {
+    --black:#2B2B2B;
+    --white:#ffffff;
+    --green:#8DC640;
+    --blue:#256DB7;
+}
+.bg-black {
+    background-color: var(--black);
+}
+.bg-white {
+    background-color: var(--white);
+}
+.bg-green {
+    background-color: var(--green);
+}
+.bg-red {
+    background-color: var(--blue);
+}
+
+/* background color ended */
+
+/* 2px black border */
+
+.black-border{
+    border: 2px solid var(--black);
+}
+
+/* text colors started */
+
+.text-black {
+    color: var(--black);
+}
+.text-white {
+    color: var(--white);
+}
+.text-green {
+    color: var(--green);
+}
+.text-red {
+    color: var(--blue);
+}
+
+/* text color ended */
+.rounded{
+    border-radius: 30px;
+    cursor: pointer;
+}
